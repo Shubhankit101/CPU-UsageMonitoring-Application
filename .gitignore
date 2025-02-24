@@ -1,7 +1,3 @@
 .DS_Store
-CPUMonitor/obj/CPUMonitor.csproj.nuget.dgspec.json
-CPUMonitor/obj/CPUMonitor.csproj.nuget.g.props
-CPUMonitor/obj/CPUMonitor.csproj.nuget.g.targets
-CPUMonitor/obj/project.assets.json
-CPUMonitor/obj/project.nuget.cache
+CPUMonitor/obj/
 CPUMonitor/bin/
