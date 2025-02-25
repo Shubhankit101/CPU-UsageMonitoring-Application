@@ -45,11 +45,11 @@ Run the Program
 
 Compile the program:
 
-dotnet build
+<pre><code>dotnet build</code></pre>
 
 Run the executable:
 
-dotnet run
+<pre><code>dotnet run</code></pre>
 
 Stop the program using Ctrl+C.
 
