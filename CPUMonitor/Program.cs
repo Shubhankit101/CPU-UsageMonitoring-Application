@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading;
-
 class Program
 {
     static void Main()
     {
         Console.WriteLine("CPU Usage Monitor");
         Console.WriteLine("Press Ctrl+C to stop");
-
         while (true)
         {
+            DateTime currentTime = DateTime.Now;
             float cpuUsage = GetCpuUsage();
-            Console.WriteLine($"CPU Usage: {cpuUsage}%");
+            Console.WriteLine($"CPU Usage: {cpuUsage}% DateTime: {currentTime}");
             Thread.Sleep(1000); // Refresh every second
         }
     }
-
     static float GetCpuUsage()
     {
         try
